@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { padString } from "./padString";
+import { padString } from "../padString";
 
 describe("padString", () => {
   it("should pad the string with spaces by default", () => {

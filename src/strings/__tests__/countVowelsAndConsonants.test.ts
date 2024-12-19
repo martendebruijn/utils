@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { countVowelsAndConsonants } from "./countVowelsAndConsonants";
+import { countVowelsAndConsonants } from "../countVowelsAndConsonants";
 
 describe("countVowelsAndConsonants", () => {
   it("should count vowels and consonants in a simple word", () => {

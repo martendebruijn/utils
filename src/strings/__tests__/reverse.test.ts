@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { reverse } from "./reverse";
+import { reverse } from "../reverse";
 
 describe("reverse", () => {
   it("should reverse a regular string", () => {

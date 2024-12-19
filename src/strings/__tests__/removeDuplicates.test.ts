@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { removeDuplicates } from "./removeDuplicates";
+import { removeDuplicates } from "../removeDuplicates";
 
 describe("removeDuplicates", () => {
   it("should remove duplicate characters from a string", () => {

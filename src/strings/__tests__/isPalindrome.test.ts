@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { isPalindrome } from "./isPalindrome";
+import { isPalindrome } from "../isPalindrome";
 
 describe("isPalindrome", () => {
   it("should return true for a simple palindrome", () => {

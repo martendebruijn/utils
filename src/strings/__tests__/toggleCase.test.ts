@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { toggleCase } from "./toggleCase";
+import { toggleCase } from "../toggleCase";
 
 describe("toggleCase", () => {
   it("should toggle the case of each character in the string", () => {

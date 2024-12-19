@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { toCamelCase } from "./toCamelCase";
+import { toCamelCase } from "../toCamelCase";
 
 describe("toCamelCase", () => {
   it("should convert hyphen-separated words to camelCase", () => {

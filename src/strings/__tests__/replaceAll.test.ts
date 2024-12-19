@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { replaceAll } from "./replaceAll";
+import { replaceAll } from "../replaceAll";
 
 describe("replaceAll", () => {
   it("replaces all occurrences of a substring within a string", () => {

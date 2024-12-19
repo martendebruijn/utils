@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { toPascalCase } from "./toPascalCase";
+import { toPascalCase } from "../toPascalCase";
 
 describe("toPascalCase", () => {
   it("should convert snake_case to PascalCase", () => {

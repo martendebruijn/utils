@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { isNumeric } from "./isNumeric";
+import { isNumeric } from "../isNumeric";
 
 describe("isNumeric", () => {
   it("should return true for a string of digits", () => {

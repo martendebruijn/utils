@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { toSnakeCase } from "./toSnakeCase";
+import { toSnakeCase } from "../toSnakeCase";
 
 describe("toSnakeCase", () => {
   it("should convert camelCase to snake_case", () => {
