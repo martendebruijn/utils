@@ -1,0 +1,50 @@
+{
+  "name": "@martendebruiijn/utils",
+  "version": "0.0.0",
+  "description": "A collection of utility functions",
+  "type": "module",
+  "main": "dist/my-utils.cjs.js",
+  "module": "dist/my-utils.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "format": "prettier . --write",
+    "lint": "eslint src/**/*.ts",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "keywords": [
+    "utils",
+    "typescript",
+    "javascript"
+  ],
+  "author": "Marten de Bruijn <martendebruijn@outlook.com> (https://github.com/martendebruijn)",
+  "license": "MIT",
+  "homepage": "https://github.com/martendebruijn/utils#readme",
+  "bugs": {
+    "url": "https://github.com/martendebruijn/utils/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martendebruijn/utils.git"
+  },
+  "devDependencies": {
+    "@tsconfig/node22": "^22.0.0",
+    "@tsconfig/recommended": "^1.0.8",
+    "@types/eslint-config-prettier": "^6.11.3",
+    "@types/node": "^22.10.2",
+    "@typescript-eslint/eslint-plugin": "^8.18.1",
+    "@typescript-eslint/parser": "^8.18.1",
+    "@vitest/coverage-v8": "^2.1.8",
+    "eslint": "^9.17.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "3.4.2",
+    "typescript": "5.7.2",
+    "typescript-eslint": "^8.18.1",
+    "vite": "^5.4.11",
+    "vitest": "^2.0.3"
+  }
+}
